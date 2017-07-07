@@ -1,0 +1,87 @@
+ @font-face {/* Définition d'une nouvelle police nommée calligraffitiregular */
+    font-family: 'calligraffitiregular';
+    src: url('Polices/Calligraffiti-webfont.eot');
+    src: url('Polices/Calligraffiti-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Polices/Calligraffiti-webfont.woff') format('woff'),
+         url('Polices/Calligraffiti-webfont.ttf') format('truetype'),
+         url('Polices/Calligraffiti-webfont.svg#calligraffitiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header h1 
+{
+    display: block;
+    text-align: left;
+    vertical-align: top;
+}
+
+h1
+{
+    color: blue;
+    font-family: 'calligraffitiregular', Arial, "Comic Sans Ms", Georgia, Impact, Serif;
+}
+
+.introduction
+{
+    color: yellow;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: justify;
+    width: 350px;
+}
+
+body
+{
+    background: url("Image/alphabet.jpg") fixed, no-repeat;
+    
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin:auto;
+}
+
+nav
+{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    padding-left: 3px;
+    width: 740px;
+}
+}
+a
+{
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: green;
+} ;
+
+.imageflottante
+{
+    float: right;
+}
+
+#image
+{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top:10px;
+}
